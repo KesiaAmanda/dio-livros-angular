@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material';
 import { LivrosService } from 'src/app/core/livros.service';
+import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
+import { Alerta } from 'src/app/shared/models/alerta';
 import { Livro } from 'src/app/shared/models/livro';
 
 @Component({
@@ -15,7 +18,8 @@ export class CadastroLivrosComponent implements OnInit {
   generos: Array<string>;
 
 
-  constructor(public validacao: ValidarCamposService, 
+  constructor(public validacao: ValidarCamposService,
+              public dialog: MatDialog, 
               private fb: FormBuilder,
               private livroService: LivrosService) { }
 
@@ -54,7 +58,15 @@ export class CadastroLivrosComponent implements OnInit {
 
   private salvar(livro: Livro): void {
     this.livroService.salvar(livro).subscribe(() => {
-      alert('Ok');
+      const config = {
+        data: {
+          btnSucesso: 'Ir para a listagem',
+          btnCancelar: 'Cadastrar um novo livro',
+          corBtnCancelar: 'primary',
+          possuiBtnFechar: true
+        } as Alerta
+      }
+      const dialogRef = this.dialog.open(AlertaComponent, config);
     },
     () => {
       alert('Erro ao salvar!')
