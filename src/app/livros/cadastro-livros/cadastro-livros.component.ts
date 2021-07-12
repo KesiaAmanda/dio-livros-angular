@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material';
+import { Router } from '@angular/router';
 import { LivrosService } from 'src/app/core/livros.service';
 import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
@@ -21,7 +22,8 @@ export class CadastroLivrosComponent implements OnInit {
   constructor(public validacao: ValidarCamposService,
               public dialog: MatDialog, 
               private fb: FormBuilder,
-              private livroService: LivrosService) { }
+              private livroService: LivrosService,
+              private router: Router) { }
 
   get f() {
     return this.cadastro.controls;
@@ -65,11 +67,26 @@ export class CadastroLivrosComponent implements OnInit {
           corBtnCancelar: 'primary',
           possuiBtnFechar: true
         } as Alerta
-      }
+      };
       const dialogRef = this.dialog.open(AlertaComponent, config);
+      dialogRef.afterClosed().subscribe((opcao: boolean) => {
+        if(opcao){
+          this.router.navigateByUrl('filmes');
+        } else {
+          this.reiniciarForm();
+        }
+      });
     },
     () => {
-      alert('Erro ao salvar!')
+      const config = {
+        data: {
+          titulo: 'Erro',
+          descricao: 'Não foi possível salvar o registro, favor tentar novamente mais tarde!',
+          corBtnSucesso: 'warn',
+          btnSucesso: 'Fechar'
+        } as Alerta
+      };
+      this.dialog.open(AlertaComponent, config);
     });
   }
 }
