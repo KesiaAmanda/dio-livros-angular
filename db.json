@@ -1,19 +1,11 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "livros": {
+    "titulo": "Quando te vejo",
+    "urlCapa": "https://cache.skoob.com.br/local/images//u05lAs_np7PvJvE-MHBmHH4SGV0=/300x0/center/top/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11900370/QUANDO_TE_VEJO_162153346611900370SK-V11621533467B.jpg",
+    "dtLancamento": "2021-07-12T03:00:00.000Z",
+    "descricao": "Joel tem medo do futuro. Desde criança, ele sonha com as pessoas que ama, sonhos que sempre se tornam realidade ― sejam eles bons ou ruins.",
+    "nota": 0,
+    "urlSkoob": "https://www.skoob.com.br/cortesia/detalhes/4532",
+    "genero": "Ficção Científica"
   }
 }
