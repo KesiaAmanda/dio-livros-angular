@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CadastroLivrosComponent } from './livros/cadastro-livros/cadastro-livros.component';
-import { ListagemLivrosComponent } from './livros/listagem-filmes/listagem-livros.component';
+import { ListagemLivrosComponent } from './livros/listagem-livros/listagem-livros.component';
 import { LivroModule } from './livros/livros.module';
 
 const routes: Routes = [

@@ -1,5 +1,5 @@
 <mat-toolbar class="app-title">Livros Cadastrados</mat-toolbar>
-<div class="home-content">
+<div class="home-content" infiniteScroll (scrolled)="onScroll()">
 
   <mat-card class="home-card" *ngFor="let livro of livros">
     <mat-card-header>

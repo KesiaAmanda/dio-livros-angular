@@ -9,11 +9,22 @@ import { Livro } from 'src/app/shared/models/livro';
 })
 export class ListagemLivrosComponent implements OnInit {
 
-  livros: Livro[];
+  readonly qtdPagina = 4;
+  livros: Livro[] = [];
+  pagina = 0;
 
   constructor(private livrosService: LivrosService) { }
 
-  ngOnInit() {
-    this.livrosService.listar().subscribe((livros: Livro[]) => this.livros = livros);
+  ngOnInit(): void {
+    this.listarLivros();
+  }
+
+  onScroll(): void {
+    this.listarLivros();
+  }
+
+  private listarLivros(): void{
+    this.pagina++;
+    this.livrosService.listar(this.pagina, this.qtdPagina).subscribe((livros: Livro[]) => this.livros.push(...livros));
   }
 }
