@@ -16,4 +16,8 @@ export class LivrosService {
     return this.http.post<Livro>(url, livro);
   }
 
+  listar(): Observable<Livro[]> {
+    return this.http.get<Livro[]>(url);
+  }
+
 }
