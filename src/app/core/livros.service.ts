@@ -1,7 +1,9 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { ConfigParams } from '../shared/models/config-params';
 import { Livro } from '../shared/models/livro';
+import { ConfigParamsService } from './config-params.service';
 
 const url = 'http://localhost:3000/livros/';
 
@@ -10,17 +12,17 @@ const url = 'http://localhost:3000/livros/';
 })
 export class LivrosService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+              private configService: ConfigParamsService) { }
 
   salvar(livro: Livro): Observable<Livro> {
     return this.http.post<Livro>(url, livro);
   }
 
-  listar(pagina: number, qtdPagina: number): Observable<Livro[]> {
-    let httpParams = new HttpParams();
-    httpParams = httpParams.set('_page', pagina.toString());
-    httpParams = httpParams.set('_limit', qtdPagina.toString());
-    return this.http.get<Livro[]>(url, {params: httpParams});
+  listar(config: ConfigParams): Observable<Livro[]> {
+    const configParams = this.configService.configurarParametros(config); 
+    return this.http.get<Livro[]>(url, {params: configParams});
   }
 
 }
+ 

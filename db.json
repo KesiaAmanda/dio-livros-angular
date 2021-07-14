@@ -1,11 +1,24 @@
 {
-  "livros": {
-    "titulo": "O auto da maga Josefa",
-    "urlCapa": "https://cache.skoob.com.br/local/images//UT9bvrhrkjwMd0qTE7x29VdxNVM=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/805292/O_AUTO_DA_MAGA_JOSEFA_1624584221805292SK-V11624584223B.jpg",
-    "dtLancamento": "2021-07-14T03:00:00.000Z",
-    "descricao": "São muitas as criaturas sobrenaturais que assombram o sertão: demônios, múmias, vampiros e chupa-cabras. E, ultimamente, para Toninho, um reconhecido caçador de demônios, herdeiro de uma linhagem antiga de outros caçadores, trabalho não falta.",
-    "nota": 4.5,
-    "urlSkoob": "https://www.skoob.com.br/o-auto-da-maga-josefa-805292ed11933361.html",
-    "genero": "Aventura"
-  }
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "O auto da maga Josefa",
+      "urlCapa": "https://cache.skoob.com.br/local/images//UT9bvrhrkjwMd0qTE7x29VdxNVM=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/805292/O_AUTO_DA_MAGA_JOSEFA_1624584221805292SK-V11624584223B.jpg",
+      "dtLancamento": "2021-07-14T03:00:00.000Z",
+      "descricao": "São muitas as criaturas sobrenaturais que assombram o sertão: demônios, múmias, vampiros e chupa-cabras. E, ultimamente, para Toninho, um reconhecido caçador de demônios, herdeiro de uma linhagem antiga de outros caçadores, trabalho não falta.",
+      "nota": 4.5,
+      "urlSkoob": "https://www.skoob.com.br/o-auto-da-maga-josefa-805292ed11933361.html",
+      "genero": "Aventura"
+    },
+    {
+      "titulo": "Com qual penteado eu vou?",
+      "urlCapa": "",
+      "dtLancamento": "2021-07-14T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlSkoob": "",
+      "genero": "Aventura",
+      "id": 2
+    }
+  ]
 }

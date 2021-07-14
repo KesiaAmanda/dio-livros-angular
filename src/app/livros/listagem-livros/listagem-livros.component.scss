@@ -11,9 +11,14 @@
 }
 
 .mat-card-image {
-  width: auto;
+  width: 182px;
+  height: 268px;
   margin: auto;
   display: block;
+}
+
+.filtro-listagem{
+  width: calc(100% - 50px);
 }
 
 @media screen and (min-width: 525px) {
