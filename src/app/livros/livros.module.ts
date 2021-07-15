@@ -8,6 +8,7 @@ import { MaterialModule } from '../shared/material/material.module';
 import { CadastroLivrosComponent } from './cadastro-livros/cadastro-livros.component';
 import { ListagemLivrosComponent } from './listagem-livros/listagem-livros.component';
 import { CamposModule } from '../shared/components/campos/campos.module';
+import { VisualizarLivrosComponent } from './visualizar-livros/visualizar-livros.component';
 
 @NgModule({
   imports: [
@@ -18,6 +19,6 @@ import { CamposModule } from '../shared/components/campos/campos.module';
     CamposModule,
     InfiniteScrollModule
   ],
-  declarations: [CadastroLivrosComponent, ListagemLivrosComponent]
+  declarations: [CadastroLivrosComponent, ListagemLivrosComponent, VisualizarLivrosComponent]
 })
 export class LivroModule { }

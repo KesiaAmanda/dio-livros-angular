@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CadastroLivrosComponent } from './livros/cadastro-livros/cadastro-livros.component';
 import { ListagemLivrosComponent } from './livros/listagem-livros/listagem-livros.component';
 import { LivroModule } from './livros/livros.module';
+import { VisualizarLivrosComponent } from './livros/visualizar-livros/visualizar-livros.component';
 
 const routes: Routes = [
 
@@ -20,8 +21,20 @@ const routes: Routes = [
       },
       {
         path: 'cadastro',
-        component: CadastroLivrosComponent,
-        pathMatch: 'full'
+        children: [
+          {
+            path: '',
+            component: CadastroLivrosComponent
+          },
+          {
+            path: ':id',
+            component: CadastroLivrosComponent
+          }
+        ]
+      },
+      {
+        path: ':id',
+        component: VisualizarLivrosComponent
       }
     ]
   },

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import { debounceTime } from 'rxjs/operators';
 import { LivrosService } from 'src/app/core/livros.service';
 import { ConfigParams } from 'src/app/shared/models/config-params';
@@ -22,7 +23,8 @@ export class ListagemLivrosComponent implements OnInit {
   generos: Array<string>;
 
   constructor(private livrosService: LivrosService,
-              private fb: FormBuilder) { }
+              private fb: FormBuilder,
+              private router: Router) { }
 
   ngOnInit(): void {
     this.filtrosListagem = this.fb.group({
@@ -50,6 +52,10 @@ export class ListagemLivrosComponent implements OnInit {
 
   onScroll(): void {
     this.listarLivros();
+  }
+
+  abrir(id: number): void {
+    this.router.navigateByUrl("/livros/" + id);
   }
 
   private listarLivros(): void{

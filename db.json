@@ -1,24 +1,154 @@
 {
   "livros": [
     {
-      "id": 1,
-      "titulo": "O auto da maga Josefa",
-      "urlCapa": "https://cache.skoob.com.br/local/images//UT9bvrhrkjwMd0qTE7x29VdxNVM=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/805292/O_AUTO_DA_MAGA_JOSEFA_1624584221805292SK-V11624584223B.jpg",
-      "dtLancamento": "2021-07-14T03:00:00.000Z",
-      "descricao": "São muitas as criaturas sobrenaturais que assombram o sertão: demônios, múmias, vampiros e chupa-cabras. E, ultimamente, para Toninho, um reconhecido caçador de demônios, herdeiro de uma linhagem antiga de outros caçadores, trabalho não falta.",
-      "nota": 4.5,
-      "urlSkoob": "https://www.skoob.com.br/o-auto-da-maga-josefa-805292ed11933361.html",
-      "genero": "Aventura"
-    },
-    {
       "titulo": "Com qual penteado eu vou?",
-      "urlCapa": "",
+      "urlCapa": "https://cache.skoob.com.br/local/images//ye5k34fEHntuHQadA-PO7AGfyfQ=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11900712/COM_QUAL_PENTEADO_EU_VOU_162039187411900712SK-V11620391874B.jpg",
       "dtLancamento": "2021-07-14T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlSkoob": "",
+      "descricao": "Uma obra fundamental para pautar a diversidade e a beleza que existe em cada criança, independente de com qual penteado ela vai. ",
+      "nota": 4.6,
+      "urlSkoob": "https://www.skoob.com.br/com-qual-penteado-eu-vou-11900712ed11897048.html",
       "genero": "Aventura",
       "id": 2
+    },
+    {
+      "titulo": "A Culpa é das Estrelas",
+      "urlCapa": "https://cache.skoob.com.br/local/images//sZJOlkmQgTJcgh24DLOTsC7RU28=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/247555/A_CULPA_E_DAS_ESTRELAS_1447651029247555SK1447651029B.jpg",
+      "dtLancamento": "2012-01-10T02:00:00.000Z",
+      "descricao": "Hazel foi diagnosticada com câncer aos treze anos e agora, aos dezesseis, sobrevive graças a uma droga revolucionária que detém a metástase em seus pulmões.",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/a-culpa-e-das-estrelas-247555ed277187.html",
+      "genero": "Romance",
+      "id": 3
+    },
+    {
+      "titulo": "A Rainha Vermelha #1",
+      "urlCapa": "https://cache.skoob.com.br/local/images//kuL3IgJtpo2Vmk0VSMU8oIZtBe4=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/449028/A_RAINHA_VERMELHA_1434473047449028SK1434473047B.jpg",
+      "dtLancamento": "2015-06-02T03:00:00.000Z",
+      "descricao": "O mundo de Mare Barrow é dividido pelo sangue: vermelho ou prateado. Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses.",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/a-rainha-vermelha-449028ed508729.html",
+      "genero": "Romance",
+      "id": 4
+    },
+    {
+      "titulo": "Corte de Espinhos e Rosas #1",
+      "urlCapa": "https://cache.skoob.com.br/local/images//CHBKp6wqA0I24EZ3ZPluqYtPfTI=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/530755/CORTE_DE_ESPINHOS_E_ROSAS_1502233474530755SK1502233475B.jpg",
+      "dtLancamento": "2021-06-16T03:00:00.000Z",
+      "descricao": "Depois de anos sendo escravizados pelos feéricos, os humanos enfim se rebelaram; mas a liberdade tem seu preço e, em meio a batalhas épicas, um Tratado é forjado para selar a paz e determinar os espólios de guerra. ",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/corte-de-espinhos-e-rosas-530755ed539188.html",
+      "genero": "Romance",
+      "id": 5
+    },
+    {
+      "titulo": "Convite para um Homicídio",
+      "urlCapa": "https://cache.skoob.com.br/local/images//IkN4GAPiaakE60hWDiG4Trv9M10=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/1044/CONVITE_PARA_UM_HOMICIDIO_16231744511044SK-V11623174459B.jpg",
+      "dtLancamento": "2021-01-20T03:00:00.000Z",
+      "descricao": "Chipping Cleghorn é uma cidade pequena na qual todos se conhecem. Até que, um dia, um anúncio no jornal convida todos para um homicídio que acontecerá na casa de Letitia Blacklock.",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/convite-para-um-homicidio-1044ed11922489.html",
+      "genero": "Aventura",
+      "id": 6
+    },
+    {
+      "titulo": "O Hobbit",
+      "urlCapa": "https://cache.skoob.com.br/local/images//mUnE1dePgFbIdAWD_P-D36koZwA=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/509/O_HOBBIT_996351173B.jpg",
+      "dtLancamento": "2021-01-19T03:00:00.000Z",
+      "descricao": "Raramente um livro foi tão amplamente lido e amado como O Hobbit, de J.R.R Tolkien. Desde sua primeira publicação, em 1937, até os dias de hoje, essa pequena grande história segue encantando novas gerações de leitores em todo o mundo.",
+      "nota": 4.5,
+      "urlSkoob": "https://www.skoob.com.br/o-hobbit-509ed11923564.html",
+      "genero": "Aventura",
+      "id": 7
+    },
+    {
+      "titulo": "Relógio De Estrelas",
+      "urlCapa": "https://cache.skoob.com.br/local/images//2YNf4XdCFYF7dYcCJ_aAl2cZxGc=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11939272/RELOGIO_DE_ESTRELAS_162463325611939272SK-V11624633258B.jpg",
+      "dtLancamento": "2021-03-11T03:00:00.000Z",
+      "descricao": "A 1a edição do livro O relógio de estrelas: A mariposa das sombras escrito por Francesca Gibbons e publicado pela Editora HarperCollins Brasil traz uma história envolvente e sedutora. ",
+      "nota": 0,
+      "urlSkoob": "https://www.skoob.com.br/relogio-de-estrelas-11939272ed11933719.html",
+      "genero": "Ficção Científica",
+      "id": 8
+    },
+    {
+      "titulo": "Irmão do Jorel: Livro Fenomenal",
+      "urlCapa": "https://cache.skoob.com.br/local/images//O4NniUbHCh3QRGfKORPglLLfE9s=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11897081/IRMAO_DO_JOREL_LIVRO_FENOMENA_162007177911897081SK-V11620071780B.jpg",
+      "dtLancamento": "2021-07-06T03:00:00.000Z",
+      "descricao": "Irmão do Jorel – Livro Fenomenal\" traz um conteúdo totalmente inédito, com histórias brutalmente divertidas, permeadas por detalhes que você sempre quis saber mas não tinha pra quem perguntar.",
+      "nota": 4.4,
+      "urlSkoob": "https://www.skoob.com.br/irmao-do-jorel-livro-fenomenal-11897081ed11893669.html",
+      "genero": "Comédia",
+      "id": 9
+    },
+    {
+      "titulo": "Irene",
+      "urlCapa": "https://cache.skoob.com.br/local/images//TtHdQPEuROi82TuTaB3smFYRzHE=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/436137/IRENE_1625087484436137SK-V11625087485B.jpg",
+      "dtLancamento": "2021-04-18T03:00:00.000Z",
+      "descricao": "O premiado autor Pierre Lemaitre nos apresenta o primeiro livro de uma das melhores séries de suspense já escrita!",
+      "nota": 4,
+      "urlSkoob": "https://www.skoob.com.br/irene-436137ed11940823.html",
+      "genero": "Drama",
+      "id": 10
+    },
+    {
+      "titulo": "Socando o ar",
+      "urlCapa": "https://cache.skoob.com.br/local/images//1hv2OE6o43tDcp0R5lSy1Uv_AzU=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11900838/SOCANDO_O_AR_162039742411900838SK-V11620397425B.jpg",
+      "dtLancamento": "2021-02-15T03:00:00.000Z",
+      "descricao": "Amal Shahid é um adolescente negro e muçulmano de 16 anos comum crescendo no Brooklyn ― até que se envolve em uma briga em um bairro branco de classe alta e se torna o principal suspeito de um crime que não cometeu.",
+      "nota": 4.4,
+      "urlSkoob": "https://www.skoob.com.br/socando-o-ar-11900838ed11897169.html",
+      "genero": "Ficção Científica",
+      "id": 11
+    },
+    {
+      "titulo": "Uma árvore cresce no Brooklyn",
+      "urlCapa": "https://cache.skoob.com.br/local/images//iKMlRC156GMjxmBgV1TwXPleouU=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11936461/UMA_ARVORE_CRESCE_NO_BROOKLYN_162429353011936461SK-V11624293531B.jpg",
+      "dtLancamento": "2021-03-16T03:00:00.000Z",
+      "descricao": "Uma árvore cresce no Brooklyn é o adorado clássico sobre o amadurecimento de uma jovem na passagem para o século XX. A história da sensível e idealista Francie Nolan e seus agridoces anos de formação nas favelas",
+      "nota": 0,
+      "urlSkoob": "https://www.skoob.com.br/uma-arvore-cresce-no-brooklyn-11936461ed11931121.html",
+      "genero": "Romance",
+      "id": 12
+    },
+    {
+      "titulo": "Asfalto selvagem",
+      "urlCapa": "https://cache.skoob.com.br/local/images//w78hScbE1x-J-dRJX-l5RVRMt1w=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/8292/ASFALTO_SELVAGEM_1270834356B.jpg",
+      "dtLancamento": "2021-03-09T03:00:00.000Z",
+      "descricao": "Um dos mais importantes romances nacionais, Asfalto selvagem reúne numa só narrativa paixão, suspense, devoção religiosa, erotismo, incesto, tragédia, humor e um olhar implacável sobre as obsessões que nenhum de nós ousa confessar.",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/asfalto-selvagem-8292ed11776895.html",
+      "genero": "Romance",
+      "id": 13
+    },
+    {
+      "titulo": "Manual do mundo: 50 experimentos para fazer em casa",
+      "urlCapa": "https://cache.skoob.com.br/local/images//4A9pEr-8m-9n3736QeAF3RnZCHI=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/410410/MANUAL_DO_MUNDO__EXPERIMENTOS_PARA_FAZER_EM_CASA_2415120190B.jpg",
+      "dtLancamento": "2021-05-12T03:00:00.000Z",
+      "descricao": "Esta é uma edição atualizada e em novo formato do primeiro livro do MANUAL DO MUNDO, que já vendeu mais de 80.000 exemplares.",
+      "nota": 4.2,
+      "urlSkoob": "https://www.skoob.com.br/manual-do-mundo-50-experimentos-para-fazer-em-casa-410410ed11822899.html",
+      "genero": "Aventura",
+      "id": 14
+    },
+    {
+      "titulo": "Nada Ortodoxa",
+      "urlCapa": "https://cache.skoob.com.br/local/images//CXZFfnUBgm80kIyvIZ8XWKVonVY=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11607531/NADA_ORTODOXA_159872215911607531SK1598722160B.jpg",
+      "dtLancamento": "2021-07-19T03:00:00.000Z",
+      "descricao": "Deborah Feldman cresceu sob um código de costumes rígidos, que regulavam praticamente tudo que dizia respeito à sua vida, desde o que ela poderia vestir e com quem poderia falar, até o que lhe era permitido ler. Integrante de um grupo de judeus hassídicos",
+      "nota": 4.4,
+      "urlSkoob": "https://www.skoob.com.br/nada-ortodoxa-11607531ed11648324.html",
+      "genero": "Romance",
+      "id": 15
+    },
+    {
+      "titulo": "A Garota que Lê no Metrô",
+      "urlCapa": "https://cache.skoob.com.br/local/images//icFxvGhaS6-k9QbSqR5fApz0gaU=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/11640018/A_GAROTA_QUE_L_NO_METR_160017909611640018SK1600179097B.jpg",
+      "dtLancamento": "2021-07-05T03:00:00.000Z",
+      "descricao": "As viagens de metrô para o trabalho, típicas da rotina, possibilitam que Juliette observe sempre os mesmos passageiros e os livros que cada um lê.",
+      "nota": 3.5,
+      "urlSkoob": "https://www.skoob.com.br/a--garota-que-le-no-metro-11640018ed11657720.html",
+      "genero": "Romance",
+      "id": 16
     }
   ]
 }
