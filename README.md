@@ -1,7 +1,7 @@
 # Digital Innovation One
 ## Técnicas avançadas em Angular 8
 
-O projeto consiste em sistema de livros, com a possibilidade de cadastros, edições, listagem e visualização dos filmes. Utilizando o JSON DB para simular chamadas REST.
+O projeto consiste em sistema de livros, com a possibilidade de cadastros, edições, listagem e visualização dos livros. Utilizando o JSON DB para simular chamadas REST.
 
 ## Instalação
 
